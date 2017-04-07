@@ -1,4 +1,7 @@
 memento.me
 
-@        A        ns2.dns.com
-www      CNAME    ns1.dns.com
+@        A        xionghui0212.github.io
+www      CNAME    xionghui0212.github.io
+
+@	    NS	        ns1.dns.com
+@	    NS	        ns2.dns.com
