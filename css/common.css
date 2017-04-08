@@ -104,6 +104,12 @@ input{
 .fr{
 	float: right;
 }
+.pr{
+	position: relative;
+}
+.pa{
+	position: absolute;
+}
 .show{
 	display: block !important;
 }
