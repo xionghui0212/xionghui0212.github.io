@@ -2,8 +2,13 @@
     width: 100%;
 }
 
+body {
+    position: relative;
+}
+
 header {
-    .container{
+    background-image: url(../images/bg-big.jpg);
+    .container {
         padding: 20px;
     }
     h1 {
@@ -19,6 +24,13 @@ header {
     }
 }
 
+nav {
+    background-color: #242424!important;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+}
+
 section {
     margin-top: 35px!important;
 }
@@ -32,6 +44,7 @@ article,
     padding: 20px 30px !important;
     background: #ffffff;
     margin-bottom: 35px!important;
+    box-shadow: 1px 1px 4px #777;
 }
 
 .pagination {
@@ -39,8 +52,8 @@ article,
     text-align: center;
     display: block;
     span {
-        background: #f4645f;
-        color: #ffffff;
+        color: #242424;
+        background: #FED500;
         margin: 0 3px;
         display: inline-block;
         line-height: 36px;
@@ -49,9 +62,9 @@ article,
     }
     a {
         display: inline-block;
-        color: #ffffff;
-        background: #f4645f;
+        background: #FED500;
         border-radius: 2px;
+        color: #242424;
         i {
             display: inline-block;
             width: 36px;
