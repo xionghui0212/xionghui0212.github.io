@@ -23,12 +23,15 @@ header h2 {
 }
 nav {
   background-color: #242424!important;
-  position: fixed;
   z-index: 99;
   width: 100%;
+  padding-top: 86px;
+  position: absolute;
+  top: 86px;
 }
 section {
   margin-top: 35px!important;
+  padding-top: 50px!important;
 }
 aside {
   padding: 0 15px;
