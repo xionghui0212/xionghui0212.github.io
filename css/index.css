@@ -3,6 +3,7 @@
 }
 body {
   position: relative;
+  min-width: 320px;
 }
 header {
   background-image: url(../images/bg-big.jpg);
@@ -27,7 +28,9 @@ nav {
   width: 100%;
   padding-top: 86px;
   position: absolute;
-  top: 86px;
+}
+.navbar-fixed-top {
+  top: 0 !important;
 }
 section {
   margin-top: 35px!important;
