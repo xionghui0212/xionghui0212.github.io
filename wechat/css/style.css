@@ -22,8 +22,8 @@ a {
   color: #fff;
 }
 .header {
-  height: 88px;
-  line-height: 88px;
+  height: 44px;
+  line-height: 44px;
   background-color: #463b80;
   color: #fff;
   text-align: center;
@@ -31,25 +31,25 @@ a {
 }
 .header a {
   float: left;
-  font-size: 44px;
+  font-size: 22px;
   position: absolute;
-  left: 30px;
+  left: 15px;
 }
 .header span {
-  font-size: 36px;
+  font-size: 18px;
 }
 .search {
-  height: 60px;
-  line-height: 60px;
+  height: 30px;
+  line-height: 30px;
   background-color: #ccc;
   text-align: center;
   position: relative;
 }
 .search input {
   width: 90%;
-  height: 44px;
-  font-size: 24px;
-  border-radius: 20px;
+  height: 22px;
+  font-size: 14px;
+  border-radius: 10px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -61,23 +61,23 @@ a {
   box-shadow: inset 1px 1px 1px 1px #9c9c9c;
 }
 ul li {
-  height: 70px;
-  border-bottom: 2px solid #efeff9;
-  font-size: 40px;
-  line-height: 70px;
+  height: 35px;
+  border-bottom: 1px solid #efeff9;
+  font-size: 20px;
+  line-height: 35px;
   position: relative;
-  padding-left: 40px;
+  padding-left: 30px;
   background: url(../images/icon.png) no-repeat 10px center;
-  background-size: 30px 30px;
+  background-size: 15px 15px;
 }
 ul li a {
-  height: 40px;
-  width: 70px;
-  border-radius: 17px;
-  border: 2px solid #463b7f;
-  font-size: 30px;
+  height: 20px;
+  width: 40px;
+  border-radius: 8px;
+  border: 1px solid #463b7f;
+  font-size: 16px;
   text-align: center;
-  line-height: 40px;
+  line-height: 20px;
   color: #463b7f;
   background-color: #efeff9;
   position: absolute;
