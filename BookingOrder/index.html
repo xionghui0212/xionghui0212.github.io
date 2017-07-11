@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0, maximum-scale = 1.0, user-scalable = 0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/3.css">
+</head>
+
+<body>
+    <main>
+        <div class="tab">
+            <div id="tab1" class="active1">1</div>
+            <div id="tab2" class="active2">2</div>
+            <div id="tab3" class="active3">3</div>
+        </div>
+        <div class="space"></div>
+        <div class="content">
+            <div class="top">
+                <h1 class="aaa">我已抢单</h1>
+            </div>
+            <div class="list">
+                <ul>
+                    <li>
+                        <div>
+                            <p class="first">预约单号：<span class="red">675 610</span></p>
+                            <p class="second">下单时间：<span>2017.7.5 14:30:45</span></p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <p class="first">客户姓名：<span>李四</span></p>
+                            <p class="second">联系电话：<span>138 8888 8888</span></p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <p class="first">预约品牌：<span>格拉苏蒂原创</span></p>
+                            <p class="second">商品SKU：<span>1-00-04-32-12-04</span></p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="btn">
+                <button id="service">顾客不买了</button>
+                <button id="client">我放弃此订单</button>
+                <button id="refund">申请退款</button>
+            </div>
+        </div>
+
+    </main>
+    <p class="remark">*请将预约单号填写到电子柜台的开单界面</p>
+
+    <div class="mask1">
+        <div>
+            <p>顾客确定取消此订单吗？</p>
+            <button class="left">是的！</button>
+            <button class="right">不确定</button>
+        </div>
+    </div>
+
+    <div class="mask2">
+        <div>
+            <p>您确定放弃此订单吗？</p>
+            <button class="left">是的！</button>
+            <button class="right">再想想</button>
+        </div>
+    </div>
+
+    <script src="./js/jquery-1.10.1.min.js"></script>
+    <script src="./js/3.js"></script>
+</body>
+
+</html>

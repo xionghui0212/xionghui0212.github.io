@@ -1,0 +1,153 @@
+main {
+  padding: 20% 3% 0;
+}
+main .tab {
+  width: 98%;
+  text-align: center;
+}
+main .tab .active1,
+main .tab .active2,
+main .tab .active3 {
+  width: 33%;
+  height: 25px;
+  line-height: 25px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 900;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  float: left;
+}
+main .tab .active1 {
+  height: 36px;
+  line-height: 36px;
+  color: #d5573a;
+  background-color: #fff;
+  margin-top: -11px;
+}
+main .tab .active2 {
+  background-color: #999;
+}
+main .tab .active3 {
+  background-color: #808080;
+}
+main .space {
+  width: 100%;
+  height: 22px;
+}
+main .content {
+  background-color: #fff;
+  border-radius: 20px;
+  border-top-left-radius: 0;
+  padding-bottom: 25px;
+}
+main .content .top {
+  text-align: center;
+  border-bottom: 2px solid #f5f5f5;
+  height: 70px;
+  line-height: 70px;
+}
+main .content .top h1 {
+  display: inline-block;
+  padding-left: 28px;
+  width: 95px;
+  font-size: 20px;
+  color: #bba76b;
+  text-align: center;
+  background: url('../images/tick.png') no-repeat left center;
+}
+main .content .list {
+  height: 190px;
+}
+main .content .list ul > li {
+  height: 54px;
+  border-bottom: 2px solid #f5f5f5;
+}
+main .content .list ul > li div {
+  margin: 10px 0 10px 15%;
+}
+main .content .list ul > li div .first {
+  color: #4d4d4d;
+}
+main .content .list ul > li div .second {
+  color: #999;
+}
+main .content .list ul > li div .red {
+  color: #d5573a;
+  font-weight: 900;
+}
+main .content .btn {
+  padding-top: 22px;
+  text-align: center;
+}
+main .content .btn button {
+  width: 38%;
+  height: 35px;
+  border: 1px solid #ddd3b5;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #bba76b;
+}
+main .content .btn #client {
+  margin-left: 10%;
+}
+main .content .btn #refund {
+  display: none;
+  width: 75%;
+  height: 45px;
+  margin-top: -10px;
+  border: none;
+  background-color: #d5573a;
+  color: #fff;
+}
+.remark {
+  text-align: center;
+  color: #fff;
+  line-height: 35px;
+  font-size: 12px;
+  padding-bottom: 10%;
+}
+.mask1,
+.mask2 {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.mask1 div,
+.mask2 div {
+  background-color: #fff;
+  width: 70%;
+  height: 150px;
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.mask1 div p,
+.mask2 div p {
+  font-size: 16px;
+  line-height: 85px;
+  color: #4d4d4d;
+}
+.mask1 div button,
+.mask2 div button {
+  width: 35%;
+  height: 36px;
+  border-radius: 10px;
+  color: #fff;
+}
+.mask1 div .left,
+.mask2 div .left {
+  background-color: #b3b3b3;
+}
+.mask1 div .right,
+.mask2 div .right {
+  background-color: #d5573a;
+  margin-left: 10%;
+}
