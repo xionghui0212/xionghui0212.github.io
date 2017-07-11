@@ -44,7 +44,7 @@ $(function () {
         $(".mask1 .left").on("click", function () {
             $(".mask1").hide();
             $("h1").css({
-                "background": "url('./BookingOrder/images/cross.png') no-repeat left center",
+                "background": "url('./images/cross.png') no-repeat left center",
                 "width": "110px",
                 "color": "#b3b3b3"
             }).html("订单已取消");
