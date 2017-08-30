@@ -29,6 +29,9 @@ nav {
   padding-top: 86px;
   position: absolute;
 }
+nav ul.navbar-nav li > a {
+  color: #fff !important;
+}
 .navbar-fixed-top {
   top: 0 !important;
 }
